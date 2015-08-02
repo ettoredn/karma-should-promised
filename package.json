@@ -1,0 +1,33 @@
+{
+  "name": "karma-should-promised",
+  "description": "Should-promised for Karma",
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "should",
+    "mock"
+  ],
+  "version": "1.0.0",
+  "main": "./index.js",
+  "author": {
+    "name": "Ettore Del Negro",
+    "email": "ettore@ettoredelnegro.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ettoredn/karma-should-promised.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/ettoredn/karma-should-promised/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "karma": ">=0.10",
+    "should-promised": "*"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
